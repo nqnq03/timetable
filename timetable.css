@@ -1,12 +1,11 @@
 
 p{font-size : 20px;}
 
-@media screen and (max-width:480px){
-
-  }
-  @media screen and (min-width:781px){
-    
-  }
+@media only screen and (max-width: 750px){
+    img {
+        max-width: 100%; }
+    }
+}
 
     .page-title {
         font-size : 2.5rem;
